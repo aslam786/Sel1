@@ -21,6 +21,7 @@ public class AllLinks {
         driver.get(baseUrl);
         List<WebElement> linkElements = driver.findElements(By.tagName("a"));
         String[] linkTexts = new String[linkElements.size()];
+        System.out.println("Hello");
         int i = 0;
 
         //extract the link texts of each link element
