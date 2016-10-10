@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="example suite 1" duration-ms="17361" started-at="2016-09-28T15:41:56Z" finished-at="2016-09-28T15:42:14Z">
+    <groups>
+    </groups>
+    <test name="Regression suite 1" duration-ms="17361" started-at="2016-09-28T15:41:56Z" finished-at="2016-09-28T15:42:14Z">
+      <class name="com.guru.test.DataProviderExample">
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.DataProviderExample@5a8806ef]" name="setData" duration-ms="5" started-at="2016-09-28T11:42:04Z" data-provider="xxxx" finished-at="2016-09-28T11:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sampleuser1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abcdef]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.DataProviderExample@5a8806ef]" name="setData" duration-ms="1" started-at="2016-09-28T11:42:04Z" data-provider="xxxx" finished-at="2016-09-28T11:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zxcvb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="setData(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.DataProviderExample@5a8806ef]" name="setData" duration-ms="1" started-at="2016-09-28T11:42:04Z" data-provider="xxxx" finished-at="2016-09-28T11:42:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[guestuser3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+      </class> <!-- com.guru.test.DataProviderExample -->
+      <class name="com.guru.test.ParameterDataproviderWithClassLevel">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.guru.test.ParameterDataproviderWithClassLevel@9660f4e]" name="setup" is-config="true" duration-ms="7690" started-at="2016-09-28T11:41:56Z" finished-at="2016-09-28T11:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="openDBConnection()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="openDBConnection" is-config="true" duration-ms="0" started-at="2016-09-28T11:42:04Z" finished-at="2016-09-28T11:42:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openDBConnection -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.ParameterDataproviderWithClassLevel@9660f4e]" name="testMethod" duration-ms="3281" started-at="2016-09-28T11:42:04Z" data-provider="SearchProvider" finished-at="2016-09-28T11:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Guru99]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.ParameterDataproviderWithClassLevel@9660f4e]" name="testMethod" duration-ms="3171" started-at="2016-09-28T11:42:07Z" data-provider="SearchProvider" finished-at="2016-09-28T11:42:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UK]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod(java.lang.String, java.lang.String)[pri:0, instance:com.guru.test.ParameterDataproviderWithClassLevel@9660f4e]" name="testMethod" duration-ms="3178" started-at="2016-09-28T11:42:10Z" data-provider="SearchProvider" finished-at="2016-09-28T11:42:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bhupesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[USA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- com.guru.test.ParameterDataproviderWithClassLevel -->
+      <class name="com.guru.test.TestNFExample">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="openBrowser" is-config="true" duration-ms="0" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testCase01()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="testCase01" duration-ms="1" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase01 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="openBrowser" is-config="true" duration-ms="0" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testCase02()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="testCase02" duration-ms="2" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase02 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="CloseBrowser" is-config="true" duration-ms="1" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="openBrowser" is-config="true" duration-ms="0" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="testCase03()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="testCase03" duration-ms="2" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase03 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="CloseBrowser" is-config="true" duration-ms="0" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+        <test-method status="PASS" signature="CloseDBConnection()[pri:0, instance:com.guru.test.TestNFExample@72b6cbcc]" name="CloseDBConnection" is-config="true" duration-ms="0" started-at="2016-09-28T11:42:14Z" finished-at="2016-09-28T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDBConnection -->
+      </class> <!-- com.guru.test.TestNFExample -->
+      <class name="com.guru.test.ExceptionExample">
+        <test-method status="FAIL" signature="testCaseEnabling()[pri:0, instance:com.guru.test.ExceptionExample@32709393]" name="testCaseEnabling" duration-ms="2" started-at="2016-09-28T11:42:04Z" finished-at="2016-09-28T11:42:04Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[failed!!!!! expected [test1] but found [test]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: failed!!!!! expected [test1] but found [test]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at com.guru.test.ExceptionExample.testCaseEnabling(ExceptionExample.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaseEnabling -->
+      </class> <!-- com.guru.test.ExceptionExample -->
+    </test> <!-- Regression suite 1 -->
+  </suite> <!-- example suite 1 -->
+</testng-results>

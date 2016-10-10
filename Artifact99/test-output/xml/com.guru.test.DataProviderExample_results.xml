@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Regression suite 1"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.008">
+  <properties />
+  
+  
+            <testcase name="setData" time="0.005" classname="com.guru.test.DataProviderExample" />
+                <testcase name="setData" time="0.002" classname="com.guru.test.DataProviderExample" />
+                <testcase name="setData" time="0.001" classname="com.guru.test.DataProviderExample" />
+      
+</testsuite>
